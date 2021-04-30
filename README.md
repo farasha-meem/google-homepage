@@ -1,0 +1,1 @@
+This project is a recreation of the Google Canada homepage. It is to represent HTML and CSS skills and only for demonstration purposes. It does not include functionality of search or links to other Google functions.
