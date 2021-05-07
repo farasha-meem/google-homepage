@@ -1,0 +1,132 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#navbar div > a, #bottom-footer > div > a {
+    padding:10px;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+#apps-button {
+    display: inline;
+    vertical-align: bottom;
+    border-radius: 50%;
+    width: 24px;
+    padding:5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar div > a:visited {
+    color: black;
+}
+
+#bottom-footer > div > a:visited,  #bottom-footer > div > a{
+    color: #70757a;
+}
+
+#top-footer > p {
+    color: rgba(0,0,0,.54);
+    margin-left: 40px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    left: 0px;
+}
+
+a:hover {
+    text-decoration: underline !important;
+    display: inline;
+}
+
+#navbar div > button {
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#left-navbar {
+    float: left;
+}
+
+#right-navbar {
+    float: right;
+    display: flex;
+    font-size: 13px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%
+}
+
+#bottom-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#left-bottom, #right-bottom {
+    float: left;
+}
+
+#right-bottom {
+    float: right;
+}
+
+#left-bottom, #right-bottom {
+    margin: 10px;
+}
+
+
+#apps-button:hover {
+    cursor: pointer;
+    background-color: rgba(220, 220, 220, 0.925);
+    border-radius: 50%;
+}
+
+#search-box {
+    border-radius: 50px;
+    width: 70vw;
+    max-width: 500px;
+    height: 30px;
+    margin: 20px;
+    border: lightgray solid 1px;
+}
+
+#search-box:hover {
+    box-shadow: 0px 1.7px 5px #dfdfdf;
+}
+
+#center {
+    text-align: center;    
+    padding-top: 10vh;
+}
+
+#form-buttons button {
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f8f9fa;
+}
+
+#profile {
+    background-image: url(/images/profile.jpeg);
+    width: 30px;
+    border-radius: 25px;
+    border: none;
+    height: 30px;
+}
