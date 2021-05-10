@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+#navbar div > a {
+    color: black;
+}
+
 #navbar div > a:visited, #navbar div > a:focus, #navbar div > a:active {
     text-decoration: none;
     color: inherit;
